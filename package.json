@@ -25,6 +25,6 @@
   "author": "Paolo Fabris",
   "license": "MIT",
   "dependencies": {
-    "node-mqtt-client": "^1.2.1"
+    "node-mqtt-client": "^1.2.2"
   }
 }
