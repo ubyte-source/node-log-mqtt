@@ -15,7 +15,7 @@ This is a lightweight and efficient logger designed for Node.js applications, ut
 Install the package via npm:
 
 ```bash
-npm install node-mqtt-logger
+npm install node-log-mqtt
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ Here is a quick guide on how to use the Node MQTT Logger in your project:
 First, import the package into your Node.js application:
 
 ```javascript
-const { Logger, MQTTClient } = require('node-mqtt-logger');
+const { Logger, MQTTClient } = require('node-log-mqtt');
 ```
 
 ### Configuring the MQTT Client
@@ -36,7 +36,7 @@ Create and configure the MQTT client as follows:
 
 ```javascript
 const mqttClient = new MQTTClient();
-mqttClient.host = 'mqtt.femogas.it';
+mqttClient.host = 'mqtt.fabris.io';
 mqttClient.port = 8883;
 mqttClient.protocol = MQTTClient.Protocol.MQTTS;
 mqttClient.certificateManager.loadCertificates(
@@ -67,14 +67,14 @@ The logger will prepend a timestamp to your message and publish it to the MQTT t
 
 ## Versioning
 
-We use [SemVer](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/ubyte-source/node-mqtt-log/tags). 
+We use [SemVer](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/ubyte-source/node-log-mqtt/tags). 
 
 ## Authors
 
 * **Paolo Fabris** - *Initial work* - [ubyte.it](https://ubyte.it/)
 
-See also the list of [contributors](https://github.com/ubyte-source/node-mqtt-log/blob/main/CONTRIBUTORS.md) who participated in this project.
+See also the list of [contributors](https://github.com/ubyte-source/node-log-mqtt/blob/main/CONTRIBUTORS.md) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/ubyte-source/node-mqtt-log/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/ubyte-source/node-log-mqtt/blob/main/LICENSE) file for details.
