@@ -1,6 +1,6 @@
 {
   "name": "node-log-mqtt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight and efficient logger for Node.js applications that leverages MQTT for centralized log management. Ideal for distributed systems requiring traceability and log persistence, this package provides easy MQTT client integration and a simple interface for initialization and message logging. Perfect for developers needing a reliable and scalable logging solution.",
   "main": "lib/index.js",
   "directories": {
@@ -25,6 +25,6 @@
   "author": "Paolo Fabris",
   "license": "MIT",
   "dependencies": {
-    "node-mqtt-client": "^1.2.2"
+    "node-mqtt-client": "^1.2.1"
   }
 }
