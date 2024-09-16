@@ -1,0 +1,30 @@
+{
+  "name": "node-log-mqtt",
+  "version": "1.0.0",
+  "description": "A lightweight and efficient logger for Node.js applications that leverages MQTT for centralized log management. Ideal for distributed systems requiring traceability and log persistence, this package provides easy MQTT client integration and a simple interface for initialization and message logging. Perfect for developers needing a reliable and scalable logging solution.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubyte-source/node-log-mqtt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ubyte-source/node-log-mqtt/issues"
+  },
+  "homepage": "https://github.com/ubyte-source/node-log-mqtt#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "log-mqtt",
+    "logger",
+    "ubyte"
+  ],
+  "author": "Paolo Fabris",
+  "license": "MIT",
+  "dependencies": {
+    "node-mqtt-client": "^1.2.1"
+  }
+}
